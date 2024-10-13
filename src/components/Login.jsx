@@ -2,7 +2,8 @@
 import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
 import logo1 from "../images/finalLogo.gif"
-import { FaGoogle, FaFacebook, FaYahoo, FaTwitter } from "react-icons/fa"; // Importing icons for social login buttons
+import { FaXTwitter } from "react-icons/fa6";
+import { FaGoogle, FaFacebook, FaYahoo } from "react-icons/fa"; // Importing icons for social login buttons
 
 const Login = ({ setShowLogin }) => {
     return (
@@ -81,7 +82,7 @@ const Login = ({ setShowLogin }) => {
                         <FaFacebook className="text-blue-500" />
                     </button>
                     <button className="flex items-center justify-center w-12 h-12 bg-white border border-gray-300 rounded-full hover:shadow-md">
-                        <FaTwitter className="text-orange-500" />
+                        <FaXTwitter className="text-orange-500" />
                     </button>
                     <button className="flex items-center justify-center w-12 h-12 bg-white border border-gray-300 rounded-full hover:shadow-md">
                         <BiLogoGmail className="text-green-500" />

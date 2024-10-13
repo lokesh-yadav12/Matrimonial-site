@@ -7,7 +7,7 @@ const SearchForm = ({ setShowLogin }) => {
 
     return (
 
-        <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full md:w-[100%] items-center justify-center mx-auto">
+        <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full sm:pb-3 md:w-[100%] items-center justify-center mx-auto">
             <div className="mb-6 pb-3 lg:flex flex-wrap gap-2  mx-auto items-center justify-center">
 
                 <div className="flex gap-2 items-center justify-center">
