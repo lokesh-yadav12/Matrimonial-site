@@ -11,7 +11,7 @@ const App = () => {
     backgroundImage: `url(${bgImage})`,
   }}
     >
-      <div className='relative h-screen w-full bg-black/30 flex flex-col justify-between items-center'>
+      <div className='relative h-screen w-full bg-black/30 flex flex-col justify-between items-center overflow-y-hidden'>
         <div className='w-full flex justify-center items-center'>
         <Navbar/>
         </div>

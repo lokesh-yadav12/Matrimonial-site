@@ -7,7 +7,7 @@ const SearchForm = ({ setShowLogin }) => {
 
     return (
 
-        <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full sm:pb-3 md:w-[100%] items-center justify-center mx-auto">
+        <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full sm:pb-3 md:w-[100%] items-center justify-center mx-auto overflow-y-hiddenhidden">
             <div className="mb-6 pb-3 lg:flex flex-wrap gap-2 sm:pb-4 mx-auto items-center justify-center">
 
                 <div className="flex gap-2 items-center justify-center">
@@ -101,7 +101,7 @@ const SearchForm = ({ setShowLogin }) => {
 
                 <div className=" md:flex flex-col items-center md:pb-4 justify-center ">
                     <button
-                        className="mt-9 md:m-2 lg:mt-11 pb-2 mx-auto p-3 w-[200px] bg-pink-500 text-white rounded-full hover:bg-pink-700"
+                        className="mt-9 md:m-2 sm:pb-4 lg:mt-11 pb-2 mx-auto p-3 w-[200px] bg-pink-500 text-white rounded-full hover:bg-pink-700"
                     // onClick={() => setShowLogin(true)} // This sets the state to show Login
                     >
                         Let's Begin
