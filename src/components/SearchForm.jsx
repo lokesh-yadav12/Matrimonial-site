@@ -8,12 +8,12 @@ const SearchForm = ({ setShowLogin }) => {
     return (
 
         <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full sm:pb-3 md:w-[100%] items-center justify-center mx-auto">
-            <div className="mb-6 pb-3 lg:flex flex-wrap gap-2  mx-auto items-center justify-center">
+            <div className="mb-6 pb-3 lg:flex flex-wrap gap-2 sm:pb-4 mx-auto items-center justify-center">
 
                 <div className="flex gap-2 items-center justify-center">
-                    <div className="flex flex-col items-center">
-                        <label className="text-white ">I'm looking for</label>
-                        <select className="p-2 rounded-xl bg-white h-[40px] w-[150px] md:w-[200px] sm:w-[30px] overflow-auto">
+                    <div className="flex flex-col items-start">
+                        <label className="text-white text-start ">I'm looking for</label>
+                        <select className="p-2 rounded-xl  bg-white h-[40px] w-[150px] md:w-[200px] sm:w-[30px] overflow-auto">
                             <option>Woman</option>
                             <option>Man</option>
                             <option>Gay</option>
@@ -26,7 +26,7 @@ const SearchForm = ({ setShowLogin }) => {
 
 
                     <div className="flex items-end gap-0.5 justify-center">
-                        <div className="flex flex-col items-center">
+                        <div className="flex flex-col  items-start">
                             <label className="text-white ">Aged</label>
                             <select className="p-2 rounded-xl bg-white max-h-[200px] w-[65px] md:w-[90px] overflow-auto">
                                 {/* <option>Select Age</option> */}
@@ -48,9 +48,9 @@ const SearchForm = ({ setShowLogin }) => {
 
                 </div>
 
-                <div className="flex gap-2 justify-center">
+                <div className="flex gap-2 justify-center ">
 
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col  items-start">
                         <label className="text-white ">of Religion</label>
                         <select className="p-2 rounded-xl bg-white max-h-[200px] w-[150px] md:w-[200px] overflow-auto">
                             <option>Hindu</option>
@@ -61,7 +61,7 @@ const SearchForm = ({ setShowLogin }) => {
                             
                         </select>
                     </div>
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-start">
                         <label className="text-white ">Mother tongue</label>
                         <select className="p-2 rounded-xl bg-white max-h-[200px] w-[150px] md:w-[200px] overflow-auto">
                             <option>Hindi</option>
@@ -77,7 +77,7 @@ const SearchForm = ({ setShowLogin }) => {
                 <div className="flex gap-2 justify-center">
 
 
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-start">
                         <label className="text-white ">Country</label>
                         <select className="p-2 rounded-xl bg-white max-h-[150px] w-[150px] md:w-[200px] lg:w-[200px] overflow-auto">
                             <option>India</option>
@@ -87,7 +87,7 @@ const SearchForm = ({ setShowLogin }) => {
                             
                         </select>
                     </div>
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-start">
                         <label className="text-white ">State</label>
                         <select className="p-2 rounded-xl bg-white max-h-[150px] w-[150px] md:w-[200px] lg:w-[200px] overflow-auto">
                             <option>Maharashtra</option>

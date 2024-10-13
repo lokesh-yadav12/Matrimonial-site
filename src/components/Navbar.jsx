@@ -62,7 +62,7 @@ const Navbar = () => {
                 {/* Help Popup */}
                 {showHelpPopup && (
                     <div className="absolute right-5  top-[100px] bg-rose-600  border p-4  text-black rounded-lg shadow-lg z-10">
-                        <div className="w-[350px] h-[250px]  ">
+                        <div className=" sm:w-[250px] sm:h-[250px] lg:w-[250px] lg:h-[250px] w-[250px] h-[250px]">
                             <div className="hover:border-2 border-black p-2 rounded-2xl">
 
                                 <h2 className="text-lg font-semibold">Raise Ticket</h2>
