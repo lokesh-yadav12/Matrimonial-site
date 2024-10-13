@@ -7,8 +7,8 @@ const SearchForm = ({ setShowLogin }) => {
 
     return (
 
-        <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full sm:pb-3 md:w-[100%] items-center justify-center mx-auto overflow-y-hiddenhidden">
-            <div className="mb-6 pb-3 sm:pb-6 lg:flex flex-wrap gap-2 sm:mb-6 md:pb-5 mx-auto items-center justify-center">
+        <div className="text-center bg-neutral-900/40 pt-4 rounded-lg w-full lg:mb-  md:w-[100%] items-center justify-center mx-auto overflow-y-hiddenhidden">
+            <div className="mb-16 sm:mb-12 pb-3 sm:pb-6 lg:flex flex-wrap gap-2  md:pb-5 mx-auto items-center justify-center">
 
                 <div className="flex gap-2 items-center justify-center">
                     <div className="flex flex-col items-start">
