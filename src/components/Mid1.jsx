@@ -3,7 +3,7 @@ import image2 from "../images/shaadi.jpeg"
 
 export const Mid1 = () => {
     return (
-        <div className='flex flex-col justify-center items-center mx-auto'>
+        <div className='flex flex-col justify-center items-center mx-auto -mt-5'>
             <div className='font-bold text-3xl text-red-700 p-4'>
                 About Us
             </div>
