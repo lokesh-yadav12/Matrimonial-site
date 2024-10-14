@@ -2,27 +2,45 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import bgImage from "./images/heroin.jpg"
 import SearchForm from './components/SearchForm'
+import { Mid1 } from './components/Mid1'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { MatchMakingGuide } from './components/MatchMakingGuide'
 
 const App = () => {
   return (
     <div
-    className="absolute h-full w-full inset-0 bg-cover bg-center bg-no-repeat p- m-0"
-    style={{
-    backgroundImage: `url(${bgImage})`,
-  }}
+      className="absolute h-full w-full inset-0 bg-cover bg-center bg-no-repeat p- m-0"
+      style={{
+        backgroundImage: `url(${bgImage})`,
+      }}
     >
-      <div className='relative h-screen w-full bg-black/30 flex flex-col justify-between items-center overflow-y-hidden'>
-        <div className='w-full flex justify-center items-center'>
-        <Navbar/>
+      <div>
+
+        <div className='relative h-screen w-full bg-black/30 flex flex-col justify-between items-center overflow-y-hidden'>
+          <div className='w-full flex justify-center items-center'>
+            <Navbar />
+          </div>
+          <div className=' text-white text-4xl md:text-7xl font-customFont font-bold'>
+            Most Verified Partner <br /> Only At Suknvivah
+          </div>
+          <div className='w-full flex justify-center items-center '>
+            <SearchForm />
+          </div>
+
+
         </div>
-        <div className=' text-white text-4xl md:text-7xl font-customFont font-bold'>
-          Most Verified Partner <br/> Only At Suknvivah
+        <div className='items-center justify-center mx-auto p-5 bg-blue-100 gap-2'>
+          <Mid1 />
         </div>
-        <div className='w-full flex justify-center items-center '> 
-        <SearchForm/>
+
+        <div className='py-2 '>
+          <MatchMakingGuide/>
         </div>
+
       </div>
-      
+
+
     </div>
   )
 }

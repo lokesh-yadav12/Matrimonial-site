@@ -1,6 +1,7 @@
 
 import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
+
 import logo1 from "../images/finalLogo.gif"
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGoogle, FaFacebook, FaYahoo } from "react-icons/fa"; // Importing icons for social login buttons
