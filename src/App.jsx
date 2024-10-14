@@ -10,7 +10,7 @@ import { MatchMakingGuide } from './components/MatchMakingGuide'
 const App = () => {
   return (
     <div
-      className="absolute h-full w-full inset-0 bg-cover bg-center bg-no-repeat p- m-0"
+      className="absolute h-full w-full inset-0 bg-cover bg-center bg-no-repeat p- m-0 bg-blue-100"
       style={{
         backgroundImage: `url(${bgImage})`,
       }}
