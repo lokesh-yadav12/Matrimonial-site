@@ -24,7 +24,7 @@ const App = () => {
           <div className=' text-white text-4xl md:text-7xl font-customFont font-bold'>
             Most Verified Partner <br /> Only At Suknvivah
           </div>
-          <div className='w-full flex justify-center items-center '>
+          <div className='w-full flex justify-center items-center pb-5 '>
             <SearchForm />
           </div>
 
