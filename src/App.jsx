@@ -30,7 +30,7 @@ const App = () => {
 
 
         </div>
-        <div className='items-center justify-center mx-auto p-5 bg-blue-100 gap-2'>
+        <div className='items-center justify-center mx-auto p-5 bg-blue-100 '>
           <Mid1 />
         </div>
 
