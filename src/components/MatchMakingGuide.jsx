@@ -29,8 +29,8 @@ export const MatchMakingGuide = () => {
                     {/* Slide 1 */}
                     <Carousel.Item>
                         <div className="flex flex-col items-center px-2 max-h-[70vh] md:max-h-full overflow-y-scroll md:overflow-visible">
-                            <h2 className="font-bold text-lg mb-3 text-pink-600">Online Match-Making Guide</h2>
-                            <div className='px-3 text-md justify-center'>
+                            <h2 className="font-bold text-2xl mb-3 text-pink-600">Online Match-Making Guide</h2>
+                            <div className='px-3 text-lg justify-center'>
                                 <p className="text-start">
                                     <strong>1. Choosing the Platform :</strong><br />
                                     <br />Research: Explore reputable online match-making platforms that align with your values
