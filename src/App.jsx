@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { MatchMakingGuide } from './components/MatchMakingGuide'
 import { Success } from './components/Success'
+import { Country } from './components/Country'
+import { Howwork } from './components/Howwork'
 
 const App = () => {
   return (
@@ -17,7 +19,7 @@ const App = () => {
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      <div>
+      <div className=''>
 
         <div className='relative h-screen w-full bg-black/30 flex flex-col justify-between items-center overflow-y-hidden'>
           <div className='w-full flex justify-center items-center'>
@@ -32,17 +34,22 @@ const App = () => {
 
 
         </div>
+        <div className='bg-blue-100 border-blue-200 border-3 rounded-3xl'>
+          <Howwork/>
+        </div>
         <div className='items-center justify-center mx-auto p-3 bg-blue-100 '>
           <Mid1 />
         </div>
 
-        <div className='py-2 '>
+        <div className='py-2 bg-blue-100 border-blue-200 border-3 rounded-3xl'>
           <MatchMakingGuide />
         </div>
-        <div>
+        <div className='py-3 bg-blue-100 border-blue-200 border-3 rounded-3xl'>
         <Success />
         </div>
-        
+        <div className='p-3 bg-blue-100 border-blue-200 border-3 rounded-3xl'>
+          <Country/>
+        </div>
 
       </div>
 
