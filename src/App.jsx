@@ -14,7 +14,7 @@ import { Footer } from './components/Footer'
 const App = () => {
   return (
     <div
-      className="absolute h-full w-full inset-0 bg-cover bg-center bg-no-repeat p- m-0 bg-blue-100"
+      className="absolute h-full w-full inset-0 bg-cover bg-center bg-no-repeat "
 
       style={{
         backgroundImage: `url(${bgImage})`,
@@ -32,9 +32,8 @@ const App = () => {
           <div className='w-full flex justify-center items-center py-10 '>
             <SearchForm />
           </div>
-
-
         </div>
+
         <div className='bg-gray-50 border-blue-200 border-1 border-y'>
           <Howwork />
         </div>
