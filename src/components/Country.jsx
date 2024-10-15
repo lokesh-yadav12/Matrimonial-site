@@ -8,19 +8,19 @@ export const Country = () => {
 
 
                 <div className='py-2'>
-                    <h2 className='text-center text-xl p-2 '><b>Countries</b></h2>
+                    <h2 className='text-center text-xl p-2 '><b><u>Countries</u></b></h2>
                     <h2 className='text-center'><b>India | Usa | Iran | Iraq | Ireland | Australia</b></h2>
 
 
                 </div>
                 <div className='py-3'>
-                    <h2 className='text-center text-xl p-2 '><b>Cast</b></h2>
+                    <h2 className='text-center text-xl p-2 '><b><u>Cast</u></b></h2>
                     <h2 className='text-center'><b>Sindhi | Gujrati | Jain | Marwadi |Marathi | Punjabi </b></h2>
 
                 </div>
                 
                 <div className='py-3 justify-center items-center'>
-                    <h2 className='text-center text-xl p-2 '><b>Religions</b></h2>
+                    <h2 className='text-center text-xl p-2 '><b><u>Religions</u></b></h2>
                     <h2 className='text-center'><b>Hinduism | Sikhism | Islam | Budhism | christianity</b></h2>
 
                 </div>
