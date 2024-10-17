@@ -35,7 +35,7 @@ export const Howwork = () => {
 
                         <div className='  p-2  mx-auto text-center '>
 
-                            <img className='h-[280px] w-[100%] rounded-full' src={h22} />
+                            <img className='h-[280px] w-[100%] rounded-full' src={h11} />
                             <label className='text-red-800 text-2xl py-1'><b>2. AI Profile Search</b></label>
 
                             <h3>Search Profile's with Advance Artificial  <br/> Intelligence</h3>
@@ -52,7 +52,7 @@ export const Howwork = () => {
 
                         <div className='  p-2  mx-auto text-center '>
 
-                            <img className='h-[280px] w-[100%] rounded-full' src={h33} />
+                            <img className='h-[280px] w-[100%] rounded-full' src={h11} />
                             <label className='text-red-800 text-2xl py-1'><b>3. Connect</b></label>
 
                             <h3>Connect with 100% Aadhar/Passsport <br/>Variefied Profile's</h3>
